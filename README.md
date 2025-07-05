@@ -176,7 +176,60 @@ for i in range(n):
 
 
 
+# python-patterns()    
+n=int(input("enter the size"))
+for i in range(n):
+    for j in range(n):
+            print("*",end=' ')
+    print()
+    
+ ==== OUTPUT=========
+ enter the size 6
+* * * * * * 
+* * * * * * 
+* * * * * * 
+* * * * * * 
+* * * * * * 
+* * * * * * 
 
+
+# python-patterns()    
+n=int(input("enter the size"))
+for i in range(n):
+    for j in range(i):
+            print("*",end=' ')
+    print()
+
+     ==== OUTPUT=========
+ enter the size 6
+ 
+* 
+* * 
+* * * 
+* * * * 
+
+
+
+
+# python-patterns()    
+n=int(input("enter the size"))
+for i in range(n):
+    for j in range(n):
+            print("*",end=' ')
+    print()
+
+
+  ==== OUTPUT=========  
+enter the size 9
+
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5 
+6 6 6 6 6 6 
+7 7 7 7 7 7 7 
+8 8 8 8 8 8 8 8 
 
 
 
