@@ -8,7 +8,7 @@ for i in range(n):
             print(' ',end=' ' )
     print()
 
-    OUTPUT===
+   ==== OUTPUT====
   enter the size 8
 * * * * * * * * 
   *         *   
@@ -22,6 +22,26 @@ for i in range(n):
 
 
 
+n=int(input("enter the size"))
+for i in range(n):
+    for j in range(n):
+        if i==0 or i==j or j==0 or j==i:
+            print("*",end=' ')
+        else:
+            print(' ',end=' ' )
+    print()
+
+
+    enter the size 6
+* * * * * * 
+* *         
+*   *       
+*     *     
+*       *   
+*         * 
+
+
+
 # python-patterns(Butterfly)
 n=int(input("enter the size"))
 for i in range(n):
@@ -32,7 +52,7 @@ for i in range(n):
             print(' ',end=' ' )
     print()
 
-output===
+====output====
 enter the size 8
 *             * 
 * *         * * 
@@ -46,7 +66,7 @@ enter the size 8
 
 
 
-# python-patterns(rectangle)
+# python-patterns()
 n=int(input("enter the size"))
 for i in range(n):
     for j in range(n):
@@ -57,7 +77,7 @@ for i in range(n):
     print()
 
 
-    OUTPUT=====
+   ==== OUTPUT=====
    enter the size 8
 * * * * * * * * 
 *             * 
@@ -67,6 +87,102 @@ for i in range(n):
 *             * 
 *             * 
 * * * * * * * *
+
+
+
+
+
+# python-patterns(half triangle)    
+n=int(input("enter the size"))
+for i in range(n):
+    for j in range(n):
+        if i==0 or j==n-1 or i==j:
+            print("*",end=' ')
+        else:
+            print(' ',end=' ' )
+    print()
+
+====OUTPUT====
+enter the size 6
+* * * * * * 
+  *       * 
+    *     * 
+      *   * 
+        * * 
+          * 
+
+
+# python-patterns(half triangle)    
+n=int(input("enter the size"))
+for i in range(n):
+    for j in range(n):
+        if j==0 or i==n-1 or j==i:
+            print("*",end=' ')
+        else:
+            print(' ',end=' ' )
+    print()
+
+
+   ==== OUTPUT====
+    enter the size 6
+*           
+* *         
+*   *       
+*     *     
+*       *   
+* * * * * * 
+
+
+
+
+# python-patterns(half triangle)    
+n=int(input("enter the size"))
+for i in range(n):
+    for j in range(n):
+        if i==n-1 or i+j==n-1 or j==n-1:
+            print("*",end=' ')
+        else:
+            print(' ',end=' ' )
+    print()
+
+   ==== OUTPUT====
+    enter the size 6
+          * 
+        * * 
+      *   * 
+    *     * 
+  *       * 
+* * * * * * 
+
+
+
+# python-patterns()    
+n=int(input("enter the size"))
+for i in range(n):
+    for j in range(n):
+        if i==0 or i==j or j==0 or j==i:
+            print("*",end=' ')
+        else:
+            print(' ',end=' ' )
+    print()
+ ==== OUTPUT=========
+ enter the size 6
+* * * * * * 
+* *         
+*   *       
+*     *     
+*       *   
+*         * 
+
+
+
+
+
+
+
+
+
+
 
 
 
